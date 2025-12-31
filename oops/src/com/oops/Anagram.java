@@ -1,4 +1,5 @@
 package com.oops;
+//String is anagram or not
 import java.util.Arrays;
 
 public class Anagram {
@@ -23,6 +24,7 @@ public class Anagram {
 		Arrays.sort(ar2);
 		
 		//Step:-5 check both string are anagram are not
+		//if(ar1.equals(ar2))
 		if(Arrays.equals(ar1,ar2)) {
 			System.out.println("anagram");
 		}
