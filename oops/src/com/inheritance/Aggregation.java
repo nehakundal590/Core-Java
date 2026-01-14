@@ -1,7 +1,4 @@
 package com.inheritance;
-
-
-
 class Address {
 	int streetNo;
 	int pinCode;
