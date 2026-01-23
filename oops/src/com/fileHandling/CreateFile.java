@@ -1,16 +1,13 @@
 package com.fileHandling;
 
-
-
-
 import java.io.*;
  // file created
 public class CreateFile {
 
 	public static void main(String[] args) throws IOException {
 
-        File file = new File("Rahulverma.txt");
-        // creates File object for Rahulverma.txt
+        File file = new File("Neha.txt");
+        // creates File object for neha.txt
 
         boolean fcheck = file.createNewFile();
         // createNewFile(): creates file
